@@ -4,9 +4,9 @@
 # folder structure for .env file
 
 |-src
- <prev>   |-Database_Scripts</prev>
- <prev>   |-Python_Scripts</prev>
- <prev>   .env</prev>
+ <h1><prev>   |-Database_Scripts</prev></h1>
+ <h1><prev>   |-Python_Scripts</prev></h1>
+ <h1><prev>   .env</prev></h1>
   
 # contents inside .env
 
