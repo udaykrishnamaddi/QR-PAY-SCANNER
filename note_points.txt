@@ -1,0 +1,12 @@
+Note regarding zbar (used to read barcodes and qr codes):
+---------------------------------------------------------
+
+1. The zbar (on top of zbar pyzbar-(supports zbar for python) was built) doesn't support python.
+2. The open wheel file for zbar for mac is not built.
+3. So can't download it through pip.
+4. Download it through brew.
+5. But python virtual environment built for the project can't trace it as it will be downloaded onto the global variables.
+6. So while creating virtual environment enable it to seek for modules not present in virtual environment from global variables.
+7. Create venv by:
+8. user~ $ "python -m venv venv --system-site-packages".
+9. look for pyvenv.cfg where include-system-site-packages=true.
