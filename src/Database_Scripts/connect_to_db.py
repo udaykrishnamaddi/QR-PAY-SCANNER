@@ -4,7 +4,7 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
 
-def getDBObj():
+def get_db_obj():
 
     mydb = connector.connect( 
                 host = "localhost", 

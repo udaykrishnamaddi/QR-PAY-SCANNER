@@ -1,8 +1,8 @@
-from src.Database_Scripts import connect_to_db as connector
+# from src.Database_Scripts import connect_to_db as db_connector
 
-mydb = connector.getDBObj()
+# mydb = db_connector.get_db_obj()
 
-mycursor = mydb.cursor()
+# mycursor = mydb.cursor()
 
 # create customer_details table
 # mycursor.execute('CREATE TABLE CUSTOMER_DETAILS (NAME VARCHAR(20), USERNAME VARCHAR(20) PRIMARY KEY, PIN INT, BALANCE INT)')
@@ -104,7 +104,7 @@ mycursor = mydb.cursor()
 # mydb.commit()
 
 # mycursor.execute(
-#         "CREATE TABLE QR_RECORD"+
+#         "CREATE TABLE QR_RECORDS"+
 #         "(USERNAME VARCHAR(20),"+
 #         "STALL_NAME VARCHAR(20),"+ 
 #         "GENERATED_DAY VARCHAR(10),"+ 
@@ -176,4 +176,4 @@ mycursor = mydb.cursor()
 
 #     )
 
-mycursor.execute('CREATE TABLE STALLS_CREDITS (STALL_NAME VARCHAR(20), DATE VARCHAR(10), AMOUNT INT)')
+# mycursor.execute('CREATE TABLE STALLS_CREDITS (STALL_NAME VARCHAR(20), DATE VARCHAR(10), AMOUNT INT)')
