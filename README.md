@@ -1,7 +1,7 @@
 # QRPS-QR-SCANNER
 
-# Use .env file to store your db credentials
-# folder structure for .env file
+### Use .env file to store your db credentials
+### folder structure for .env file
 
     .                       # root project directory
     |-..                    # other directories
@@ -11,7 +11,7 @@
     | .env                  # .env file inside src at src directory level
     |_..                    # other directories
   
-# contents inside .env
+### contents inside .env
 
     MY_USERNAME = your_root_username_here
     MY_PASSWORD = your_db_password_here
@@ -19,7 +19,7 @@
 
 *(dont enclose credentials in quotes)
 
-What's happening at the back?
+### What's happening at the back?
 
 1. Verify qr in qr records.
 2. Found send invalid qr page.
