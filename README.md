@@ -13,9 +13,9 @@
   
 # contents inside .env
 
-MY_USERNAME = your_root_username_here
-MY_PASSWORD = your_db_password_here
-MYDB = your_local_database_name_here
+    MY_USERNAME = your_root_username_here
+    MY_PASSWORD = your_db_password_here
+    MYDB = your_local_database_name_here
 
 *(dont enclose credentials in quotes)
 
