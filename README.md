@@ -3,10 +3,10 @@
 # Use .env file to store your db credentials
 # folder structure for .env file
 
-#|-src
-#  |-Database_Scripts
-#  |-Python_Scripts
-#  .env
+<h3>|-src</h3>
+  <h3>|-Database_Scripts</h3>
+  <h3>|-Python_Scripts</h3>
+  <h3>.env</h3>
   
 # contents inside .env
 
